@@ -1,8 +1,8 @@
-Lending Club Loan Default Prediction
+# Lending Club Loan Default Prediction
 
 This project analyzes Lending Club loan data and builds machine-learning models to predict whether a loan will become charged-off. The goal is to identify high-risk borrowers before loan approval and improve credit risk management.
 
-Project Overview
+# Project Overview
 
 Performed exploratory data analysis on key variables such as interest rate, debt-to-income ratio, credit grade, revolving utilization, and income.
 
@@ -22,7 +22,19 @@ public_issue_score = pub_rec + pub_rec_bankruptcies
 
 Trained and compared multiple models including Logistic Regression, Gradient Boosting, XGBoost, LightGBM.
 
-Requirements
+# Model Performance Summary
+
+After applying SMOTE:
+
+Model	Recall	Precision	F1	AUC
+LightGBM	0.854	0.959	0.904	0.971
+Gradient Boosting	0.853	0.937	0.892	0.965
+Logistic Regression	0.789	0.796	0.792	0.873
+
+LightGBM achieved the best overall performance and was selected as the final model.
+
+
+# Requirements
 
 Packages include:
 
