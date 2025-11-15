@@ -26,10 +26,12 @@ Trained and compared multiple models including Logistic Regression, Gradient Boo
 
 After applying SMOTE:
 
-Model	Recall	Precision	F1	AUC
-LightGBM	0.854	0.959	0.904	0.971
-Gradient Boosting	0.853	0.937	0.892	0.965
-Logistic Regression	0.789	0.796	0.792	0.873
+| Model               | Recall | Precision | F1    | AUC   |
+| ------------------- | ------ | --------- | ----- | ----- |
+| LightGBM            | 0.854  | 0.959     | 0.904 | 0.971 |
+| Gradient Boosting   | 0.853  | 0.937     | 0.892 | 0.965 |
+| Logistic Regression | 0.789  | 0.796     | 0.792 | 0.873 |
+
 
 LightGBM achieved the best overall performance and was selected as the final model.
 
